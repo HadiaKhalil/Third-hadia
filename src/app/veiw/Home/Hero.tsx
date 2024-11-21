@@ -2,7 +2,7 @@
 
 import Image from "next/image";
  import image from '../../../../public/Image/img1.png'
-
+ import image11 from '../../../../public/Image/Gradient(3).png'
 const Hero = () => {
   return (
     <div>
@@ -14,7 +14,12 @@ const Hero = () => {
     <h1 className="lg:text-5xl md:text-3xl  text-2xl  font-bold pt-24 max-w-[440px] max-lg:text-[25px] ">
       i am your <span className="text-blue-800">{`full-stack`}</span>  {`wizard,`} turning <span className="text-blue-800">web dreams</span>  into reality.
      </h1>
-     <div className="box mt-[-220px] ml-[100px] absolute max-lg:mt-[-133px] max-md:mt-[-150px]  max-sm:ml-[20px]" ></div>
+     <div className="mt-[-250px] ml-[80px] absolute " >
+     <Image src={image11} 
+      alt="my image" 
+   className="h-[250px] w-[250px]"
+      />
+     </div>
        <p className="lg:text-lg md:text-base text-sm mb-12 mt-12 font-serif  max-lg:text-[15px]">
        Crafting seamless digital experiences from{` front-end elegance to back-end robustness, `}
        I bring your web visions to life as a versatile  {`full-stack developer`}

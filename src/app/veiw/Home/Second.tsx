@@ -4,7 +4,7 @@
 
 import Image from "next/image";
  import img2 from '../../../../public/Image/img2.png'
-
+ import img3 from '../../../../public/Image/Gradient(3).png'
 const Second = () => {
   return (
    
@@ -40,12 +40,20 @@ const Second = () => {
                height={330}
                 className="mb-36"
                 />
-            <div className="box2 mt-[-490px] ml-[-100px] absolute  max-sm:ml-[-70px]  max-sm:mt-[-410px]  max-sm:w-[255px] max-sm:h-[250px]  "></div>
+            <div className=" mt-[-490px] ml-[-100px] absolute  max-sm:ml-[-70px]  max-sm:mt-[-410px]  max-sm:w-[255px] max-sm:h-[250px]  ">
+            <Image src={img3} 
+      alt="my image" 
+    height={160}
+    width={330}
+      />
+            </div>
+       
+     </div>
           </div>
 
         </div>
      
-      </div>
+      
  
   )
 }
