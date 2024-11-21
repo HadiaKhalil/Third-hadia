@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import image from '../../../../public/Image/img1.png'
 
 const Hero = () => {
   return (
@@ -22,10 +23,10 @@ const Hero = () => {
     </div>
   </div>
   <div className="">
-    <Image src="/public/Image/img1.png" 
+    <Image src={image} 
       alt="my image"
-      width={90} 
-      height={30}
+      width={1100} 
+      height={1000}
    
       />
   </div>
