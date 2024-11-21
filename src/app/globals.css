@@ -22,23 +22,14 @@ body {
 
 body{
 background-color: #0e061a;
+
 }
 
+.line{
+  /* width: 1100px;
+height: 326.35px;
+margin-top: -100px;
+gap: 0px;
+opacity: 0px; */
 
-.box{
-  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
-  width: 205px;
-  height: 200px;
-  gap: 0px;
-  opacity: 0px;
-  
 }
-.box2{
- 
-    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
-    width: 355px;
-    height: 350px;
-    gap: 0px;
-    opacity: 0px;
-    
-  }
