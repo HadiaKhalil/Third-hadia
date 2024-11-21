@@ -14,10 +14,10 @@ const Hero = () => {
     <h1 className="lg:text-5xl md:text-3xl  text-2xl  font-bold pt-24 max-w-[440px] max-lg:text-[25px] ">
       i am your <span className="text-blue-800">{`full-stack`}</span>  {`wizard,`} turning <span className="text-blue-800">web dreams</span>  into reality.
      </h1>
-     <div className="mt-[-250px] ml-[80px] absolute " >
+     <div className="mt-[-250px] ml-[80px] absolute  max-sm:ml-[10px]  max-sm:mt-[-160px] " >
      <Image src={image11} 
       alt="my image" 
-   className="h-[250px] w-[250px]"
+   className="h-[250px] w-[250px] max-sm:w-[200px] max-sm:h-[200px] "
       />
      </div>
        <p className="lg:text-lg md:text-base text-sm mb-12 mt-12 font-serif  max-lg:text-[15px]">
