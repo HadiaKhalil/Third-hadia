@@ -1,3 +1,7 @@
+
+
+
+
 import Image from "next/image";
  import img2 from '../../../../public/Image/img2.png'
 
