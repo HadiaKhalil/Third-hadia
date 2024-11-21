@@ -1,6 +1,7 @@
 
+
 import Image from "next/image";
-import image from '../../../../public/Image/img1.png'
+ import image from '../../../../public/Image/img1.png'
 
 const Hero = () => {
   return (
@@ -22,12 +23,10 @@ const Hero = () => {
      max-w-[148px] w-[160px] h-[43px] font-serif px-2 mb-6 pt-[10px] pb-2  rounded">project</a>
     </div>
   </div>
-  <div className="">
+  <div className="md:w-1/2 w-full">
     <Image src={image} 
-      alt="my image"
-      width={1100} 
-      height={1000}
-   
+      alt="my image" 
+      className="w-full h-full"
       />
   </div>
 

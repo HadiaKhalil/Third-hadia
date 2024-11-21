@@ -84,12 +84,12 @@ const Navbar = () => {
           </div>
           
         {isClick && (
-          <div className='md:hidden text-white bg-black'>
-            <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-            <p >Home</p>
-            <p >About</p>
-            <p >Projects</p>
-            <p >Contact</p>
+          <div className='md:hidden text-white bg-black  '>
+            <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3 '>
+            <p className="text-white hover:bg-white hover:text-black rounded-lg p-2" >Home</p>
+            <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">About</p>
+            <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">Projects</p>
+            <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">Contact</p>
             </div>
           </div>
         )}
