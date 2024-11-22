@@ -9,20 +9,20 @@ const Hero = () => {
     <div>
    <div className="max-w-[1440px] w-full mx-auto ">
    <div className="flex justify-between items-center md:flex-row flex-col  text-[white]">
-   <div className="  h-full md:w-1/2 w-full max-lg:px-7">
+   <div className="  h-full md:w-1/2 w-full max-lg:px-7 max-sm:px-0 max-sm:pr-20">
    <div className="md:max-w-[70%]  mx-auto md:px-0  md:py-0 max-md:w-[75%] relative">
   
-    <h1 className="lg:text-5xl md:text-3xl  text-2xl  font-bold pt-24 max-w-[440px] max-lg:text-[25px] ">
-      i am your <span className="text-blue-800">{`full-stack`}</span>  {`wizard,`} turning <span className="text-blue-800">web dreams</span>  into reality.
+    <h1 className="lg:text-5xl md:text-3xl  text-2xl  font-bold pt-24 max-w-[440px] max-lg:text-[25px] max-sm:pt-9  ">
+      I am your <span className="text-blue-800">{`full-stack`}</span>  {`wizard,`} turning <span className="text-blue-800">web dreams</span>  into reality.
      </h1>
-     <div className="mt-[-250px] ml-[80px] absolute  max-sm:ml-[10px]  max-sm:mt-[-160px] " >
+     <div className="mt-[-250px] ml-[80px] absolute  max-sm:ml-[10px]  max-sm:mt-[-140px] " >
      <Image src={Cercle} 
       alt="my image" 
    className="h-[250px] w-[250px] max-sm:w-[200px] max-sm:h-[200px] "
       />
       
      </div>
-       <p className="lg:text-lg md:text-base text-sm mb-12 mt-12 font-serif  max-lg:text-[15px]">
+       <p className="lg:text-lg md:text-base text-sm mb-12 mt-12   max-lg:text-[15px]">
        Crafting seamless digital experiences from{` front-end elegance to back-end robustness, `}
        I bring your web visions to life as a versatile  {`full-stack developer`}
          </p>
