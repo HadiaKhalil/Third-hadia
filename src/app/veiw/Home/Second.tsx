@@ -34,13 +34,13 @@ const Second = () => {
            
           </div>
 
-          <div className="md:w-1/2 w-full pt-32 pl-36 max-md:pt-5 max-sm:items-center max-sm:mr-[90px]   relative ">
+          <div className="md:w-1/2 w-full pt-32 pl-36 max-md:pt-5 max-sm:items-center max-sm:mr-[90px]  max-md:w-[350px] relative ">
             <Image src={img2} alt="my image"
               width={350}
                height={330}
                 className="mb-36"
                 />
-            <div className=" mt-[-490px] ml-[-100px] absolute  max-sm:ml-[-70px]  max-sm:mt-[-410px]  max-sm:w-[255px] max-sm:h-[250px]  ">
+            <div className=" mt-[-490px] ml-[-100px] absolute  max-sm:ml-[-90px]  max-sm:mt-[-350px]  max-sm:w-[225px] max-sm:h-[240px]  ">
             <Image src={img3} 
       alt="my image" 
     height={160}
