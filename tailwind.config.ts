@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
        fontFamily:{
-        title: ["oswald","sans sarif"]
+        title:[ "Inter" , "sans-serif"]
        }
     },
   },
