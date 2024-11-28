@@ -2,6 +2,7 @@
 import Hero from './Hero'
 import Second from './Second'
 import Navbar from './Navbar'
+import Cards from './Cards'
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar /> 
   <Hero />
   <Second />
+  <Cards />
    
       </div>
   )

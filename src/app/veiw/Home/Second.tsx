@@ -17,7 +17,7 @@ const Second = () => {
                        {` Hello!`}
               </h1>
               <h1 className="lg:text-5xl md:text-3xl  text-2xl font-title  font-extrabold  pt-2 max-w-[440px] max-lg:text-[25px] ">
-                I am <span className="text-blue-800">Laiba Iqbal.
+                I am <span className="text-sky-200">Laiba Iqbal.
                   
                 </span>
               </h1>

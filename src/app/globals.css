@@ -26,3 +26,47 @@ body{
 background-color: #0e061a;
 }
 
+.text {
+  padding: 16px 60px 36px 48px;
+   min-height: 140px;
+  box-sizing: border-box;
+ 
+}
+.text1 {
+  padding: 16px 60px 36px 48px;
+   min-height: 140px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.text2 {
+  padding: 16px 60px 36px 48px;
+   min-height: 140px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.text3 {
+  padding: 16px 60px 36px 48px;
+   min-height: 140px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.text:hover{
+  cursor: pointer;
+  box-shadow: 10px 3px 15px rgba(10, 71, 71, 0.1);
+}
+.text{
+  background: rgba(44, 18, 80, 1);
+
+}
+.text1{
+  background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+
+}
+.text2{
+  background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+
+}
+.text3{
+  background: linear-gradient(149.88deg, #130428 37.22%, #251043 70.43%, #38126D 97.89%, #261045 132.38%, #190634 150.9%);
+
+}

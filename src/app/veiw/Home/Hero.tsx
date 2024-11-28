@@ -13,9 +13,9 @@ const Hero = () => {
    <div className="md:max-w-[70%]  mx-auto md:px-0  md:py-0 max-md:w-[75%] relative">
   
     <h1 className="lg:text-5xl md:text-3xl font-title  text-2xl  font-bold pt-24 max-w-[440px] max-lg:text-[25px] max-sm:pt-9  ">
-      I am your <span className="text-blue-800">{`full-stack`}</span>  {`wizard,`} turning <span className="text-blue-800">web dreams</span>  into reality.
+      I am your <span className="text-sky-200">{`full-stack`}</span>  {`wizard,`} turning <span className="text-sky-200">web dreams</span>  into reality.
      </h1>
-     <div className="mt-[-210px] ml-[80px] absolute  max-sm:ml-[10px]  max-sm:mt-[-140px] " >
+     <div className="mt-[-240px] ml-[80px] absolute  max-sm:ml-[10px]  max-sm:mt-[-140px] " >
      <Image src={Cercle} 
       alt="my image" 
    className="h-[250px] w-[250px] max-sm:w-[200px] max-sm:h-[200px] "
