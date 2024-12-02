@@ -12,8 +12,8 @@ const Navbar = () => {
   
   return (
     <div>
-         <div className="bg-[#1A0B2E] text-white ">
-        <div className='flex justify-between max-w-[1440px]  flex-wrap  p-0 w-full mx-auto box-border py-9 px-11 
+         <div className="bg-[#1A0B2E] text-white">
+        <div className='flex justify-between max-w-[1440px] flex-wrap  p-0 w-full mx-auto box-border py-9 px-11 
           h-[100px] m-auto '>
    
             <div className='flex '>
