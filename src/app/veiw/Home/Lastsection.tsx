@@ -11,18 +11,18 @@ const Lastsection = () => {
   <div className="max-w-[1440px] w-full mx-auto ">
   <div className=" justify-center items-center md:flex-row flex-col  text-[white] ">
         <div className='flex justify-center gap-20 mt-12 text-white max-md:flex-col max-md:items-center'>
-            <div >
+            <div>
                 <h1 className="lg:text-3xl md:text-3xl font-title  text-2xl 
-                 font-bold pt-24 max-w-[300px]  max-sm:pt-0  max-sm:text-[20px] max-sm:w-[200px]  ">
+                 font-bold pt-24 max-w-[300px] max-sm:text-center max-sm:items-center  max-sm:pt-0  max-sm:text-[23px]  ">
     This is what people say about me</h1>
    
 
-       <p className="text-[10px]  mt-7 font-title  max-lg:text-[10px] max-w-[320px] max-sm:text-[10px] max-sm:w-[200px] ">
+       <p className="text-[10px]  mt-7 font-title max-sm:text-center max-lg:text-[10px] max-w-[320px] max-sm:text-[10px] max-sm:w-[300px] ">
        Here are a few lines from people who I have worked with over the past 7 years in my developement career.
          </p>
-         <p className=" text-[12px] mt-7 max-sm:text-[8px] max-sm:mt-5"><u>See all testimonials</u></p>
+         <p className=" text-[12px] mt-7 max-sm:text-[8px] max-sm:mt-5 max-sm:text-center"><u>See all testimonials</u></p>
          </div>
-            <div className='img mt-24 max-md:mt-3 max-sm:w-[290px] max-md:h-[360px] '> 
+            <div className='img mt-24 max-md:mt-1 max-sm:w-[290px] max-md:h-[360px] '> 
                   <Image src={image} 
       alt="my image" 
       width={370}
@@ -36,7 +36,7 @@ const Lastsection = () => {
         <p className=' text-[9px] mt-1 px-6 text-white font-title pb-20'>CEO, Company 1</p>
        </div>
         </div>
-        <div className='ml-[500px] mt-[-500px] max-sm:w-[300px] max-sm:h-[300px] max-md:ml-36 max-md:mt-[-600px] max-sm:ml-16 max-sm:mt-[-550px] '>
+        <div className='ml-[500px] mt-[-500px] max-sm:w-[300px] max-sm:h-[300px] max-md:ml-36 max-md:mt-[-600px] max-sm:ml-10 max-sm:mt-[-500px] '>
                         <Image src={image3} alt='img'
                             width={400}
                             height={400}
@@ -45,7 +45,7 @@ const Lastsection = () => {
     </div>
   </div>
  <div className='flex flex-col justify-center items-center ml-96 mt-16 max-md:items-center max-md:ml-0'>
- <div className='img mt-24 w-[372px]  max-sm:w-[290px] max-md:h-[360px]   max-lg:mt-36 max-sm:mt-52'> 
+ <div className='img mt-24 w-[372px]  max-sm:w-[290px] max-md:h-[360px]   max-lg:mt-36 max-sm:mt-40'> 
                   <Image src={image1} 
       alt="my image" 
       width={370}
