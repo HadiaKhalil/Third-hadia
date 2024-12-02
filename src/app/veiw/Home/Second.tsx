@@ -16,8 +16,8 @@ const Second = () => {
               <h1 className="lg:text-5xl md:text-3xl  font-title text-2xl font-extrabold pt-[100px] max-w-[440px] max-lg:text-[25px] max-sm:pt-[100px] ">
                        {` Hello!`}
               </h1>
-              <h1 className="lg:text-5xl md:text-3xl  text-2xl font-title  font-extrabold  pt-2 max-w-[440px] max-lg:text-[25px] ">
-                I am <span className="text-sky-200">Laiba Iqbal.
+              <h1 className="lg:text-4xl md:text-3xl  text-2xl font-title  font-extrabold  pt-2 max-w-[440px] max-lg:text-[25px] ">
+                I am <span className="text-sky-200">Hadia Khalil.
                   
                 </span>
               </h1>

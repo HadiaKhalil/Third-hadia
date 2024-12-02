@@ -12,13 +12,13 @@ const Navbar = () => {
   
   return (
     <div>
-          
-        <div className='flex justify-between max-w-[1440px] flex-wrap  p-0 w-full mx-auto box-border py-9 px-11 bg-[#1A0B2E] text-white
+         <div className="bg-[#1A0B2E] text-white ">
+        <div className='flex justify-between max-w-[1440px]  flex-wrap  p-0 w-full mx-auto box-border py-9 px-11 
           h-[100px] m-auto '>
    
             <div className='flex '>
             <div className='text-[35px] font-semibold'>
-            LI
+            HK
           </div>
           <div className='leading-[15px] pt-3 font-serif'>
           <p >Full Stack</p>
@@ -93,6 +93,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
+        </div> 
            </div>
        
  
