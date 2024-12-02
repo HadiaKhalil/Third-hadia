@@ -84,7 +84,7 @@ const Myproject = () => {
   </div>
                 </div>
                 <div className='flex justify-center ml-[446px] mt-[-80px] max-md:ml-0 max-md:mt-10 '>
-                    <a className=' button border text-[10px] py-3 px-6 text-white'>VIEW ALL PROJECTS</a>
+                    <a className=' button border text-[11px] py-3 px-6 text-white'>VIEW ALL PROJECTS</a>
                 </div>
                 
        </div>
