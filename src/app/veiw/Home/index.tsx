@@ -6,6 +6,7 @@ import Cards from './Cards'
 import Skills from './Skills'
 import Project from './Project'
 import Myproject from './Myproject'
+import Lastsection from './Lastsection'
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
 <Skills/>
 <Project/>
 <Myproject/>
+<Lastsection/>
       </div>
   )
 }
