@@ -6,7 +6,7 @@ import Image3 from '../../../../public/Image/uil_skype.png'
 
 const Footer = () => {
   return (
-    <div> <div className="bg-[#1A0B2E] text-white">
+    <div> <div className="bg-[#763CAC]  text-white">
     <div className='flex justify-between max-w-[1440px] flex-wrap mt-24  p-0 w-full mx-auto box-border py-9 px-20 max-sm:px-12 
       h-[100px] m-auto '>
 
