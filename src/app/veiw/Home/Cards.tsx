@@ -13,7 +13,7 @@ const Cards = () => {
         <div>
             <div className="md:max-w-[85%]  w-full mx-auto  max-w-[1440px] md:px-0 flex-wrap md:py-0 max-md:w-[75%]">
                 <h1 className="lg:text-3xl md:text-3xl mx-auto  text-white text-2xl font-title font-extrabold
-                  pt-2 max-w-[1080px] max-lg:text-[25px] max-sm:text-center max-sm:text-[19px] max-sm:pt-0">
+                  pt-2 max-w-[1080px] max-lg:text-[25px] max-sm:text-center max-sm:text-[19px] max-sm:mt-[-40px]">
                     Work Experience</h1>
                 {/* frst cards section  */}
                 <div className='flex justify-center items-center mx-auto pt-7 flex-wrap gap-[20px] font-title text-white'>

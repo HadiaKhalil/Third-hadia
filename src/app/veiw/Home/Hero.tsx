@@ -22,12 +22,12 @@ const Hero = () => {
       />
       
      </div>
-       <p className="lg:text-lg md:text-base text-sm mb-12 mt-12 font-title  max-lg:text-[14px] ">
+       <p className="lg:text-lg md:text-base text-sm mb-12 mt-12 font-title  max-lg:text-[14px] max-sm:mt-5 ">
        Crafting seamless digital experiences from{` front-end elegance to back-end robustness, `}
        I bring your web visions to life as a versatile  {`full-stack developer`}
          </p>
          <a className="text-[black]  hover:text-[black]  hover:bg-white bg-[#B1C7FF]   flex justify-center transition-all duration-300 ease-in-out items-center
-     max-w-[148px] w-[160px] h-[43px]  px-2 mb-6 pt-[10px]  pb-2 font-title max-sm:mt-[-12px]  rounded">project</a>
+     max-w-[148px] w-[160px] h-[43px]  px-2 mb-6 pt-[10px]  pb-2 font-title max-sm:mt-[-15px]  rounded">project</a>
     </div>
   </div>
   

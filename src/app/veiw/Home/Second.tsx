@@ -21,7 +21,7 @@ const Second = () => {
                   
                 </span>
               </h1>
-              <p className="lg:text-1xl md:text-base text-sm mb-12 mt-12   max-lg:text-[15px]  max-sm:max- ">
+              <p className="lg:text-1xl md:text-base text-sm mb-12 mt-12   max-lg:text-[15px]  max-sm:mt-4 ">
                 I am a passionate and dedicated full-stack web developer with a knak for turning ideas into beautifully functional
                 websites and applications. with expertise in both {`front-end  and back-end technologies,`} i bring creativity and
                 precision to every preject. My commitment to staying {`up-to-date`} with the latest industry

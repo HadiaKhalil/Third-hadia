@@ -17,12 +17,12 @@ const Lastsection = () => {
     This is what people say about me</h1>
    
 
-       <p className="text-[10px]  mt-7 font-title max-sm:text-center max-lg:text-[10px] max-w-[320px] max-sm:text-[10px] max-sm:w-[300px] ">
+       <p className="text-[10px]  mt-7 font-title max-sm:text-center max-lg:text-[10px] max-w-[320px] max-sm:text-[10px] max-sm:w-[300px] max-sm:mt-3 ">
        Here are a few lines from people who I have worked with over the past 7 years in my developement career.
          </p>
          <p className=" text-[12px] mt-7 max-sm:text-[8px] max-sm:mt-5 max-sm:text-center"><u>See all testimonials</u></p>
          </div>
-            <div className='img mt-24 max-md:mt-1 max-sm:w-[290px] max-md:h-[360px] '> 
+            <div className='img mt-24 max-md:mt-[-33px] max-sm:w-[290px] max-md:h-[360px] '> 
                   <Image src={image} 
       alt="my image" 
       width={370}
