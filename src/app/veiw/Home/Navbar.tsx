@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <div>
          <div className="bg-[#1A0B2E] text-white">
-        <div className='flex justify-between max-w-[1440px] flex-wrap  p-0 w-full mx-auto box-border py-9 px-11 
-          h-[100px] m-auto '>
+        <div className='flex justify-between max-w-[1440px] flex-wrap  p-0 w-full mx-auto box-border py-9 px-28 
+          h-[100px] m-auto max-sm:py-9 max-sm:px-14 '>
    
             <div className='flex '>
             <div className='text-[35px] font-semibold'>
