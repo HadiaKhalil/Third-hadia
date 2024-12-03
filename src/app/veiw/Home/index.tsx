@@ -7,6 +7,8 @@ import Skills from './Skills'
 import Project from './Project'
 import Myproject from './Myproject'
 import Lastsection from './Lastsection'
+import Form from './Form'
+import Footer from './Footer'
 
 
 
@@ -19,10 +21,12 @@ const Home = () => {
   <Hero />
   <Second />
   <Cards />
-<Skills/>
-<Project/>
-<Myproject/>
-<Lastsection/>
+<Skills />
+<Project />
+<Myproject />
+<Lastsection />
+<Form />
+<Footer />
       </div>
   )
 }
