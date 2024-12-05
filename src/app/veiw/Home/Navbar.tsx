@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
          <div className="bg-[#1A0B2E] text-white">
         <div className='flex justify-between max-w-[1440px] flex-wrap  p-0 w-full mx-auto box-border py-9 px-28 
-          h-[100px] m-auto max-sm:py-9 max-sm:px-14 '>
+          h-[100px] m-auto max-sm:py-9 max-sm:px-12'>
    
             <div className='flex '>
             <div className='text-[35px] font-semibold'>
@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
                   <button 
                   className="inline-flex items-center justify-center p-2 rounded-md text-white md:text-white
-                   hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                   hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white "
                    onClick={ToggleNav}
                   >
                     {isClick ? (

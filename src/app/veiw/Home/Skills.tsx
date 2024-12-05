@@ -10,7 +10,7 @@ const Skills = () => {
             <Image src={Image1} alt='img'
         width={750}
         height={750}
-
+className='max-sm:w-[280px]'
         /> 
         </div> 
         </div>

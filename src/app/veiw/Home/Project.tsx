@@ -30,7 +30,7 @@ const Project = () => {
                 </div>
                 <div className='flex justify-center relative max-md:flex-col max-md:items-center'>
                     <div className='containtr  text-[13px] text-white max-w-[460px] w-[800px] rounded-t-lg rounded-b-lg
-             h-[140px] py-7 px-10 mt-12 max-sm:w-[320px] max-sm:py-4 max-sm:px-10 max-sm:text-[12px] max-sm:mt-8 '>
+             h-[140px] py-7 px-10 mt-12 max-sm:w-[300px] max-sm:py-4 max-sm:px-10 max-sm:text-[11px] max-sm:mt-8 '>
                         {`A web app for visualizing personalized Spotify data. View your
                         top artists, top tracks, recently played tracks, and detailed audio
                         information about each track. Create and save new playlists of
@@ -94,7 +94,7 @@ const Project = () => {
                         />
                     </div>
                     <div className='containtr  text-[13px] text-white max-w-[460px] w-[800px] rounded-t-lg rounded-b-lg
-             h-[140px] py-7 px-10 mt-12 max-sm:w-[320px] max-sm:py-4 max-sm:px-10 max-sm:text-[12px] max-sm:mt-8 '>
+             h-[140px] py-7 px-10 mt-12 max-sm:w-[300px] max-sm:py-4 max-sm:px-10 max-sm:text-[11px] max-sm:mt-8 '>
                        {` A web app for visualizing personalized Spotify data. View your
                         top artists, top tracks, recently played tracks, and detailed audio
                         information about each track. Create and save new playlists of
