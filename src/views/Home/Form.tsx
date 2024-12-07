@@ -38,7 +38,7 @@ const Form = () => {
                 Lets Get Started
               </button>
             </div>
-            <div className="mt-[-240px]  ml-[40px] absolute   max-sm:ml-[150px]  max-sm:mt-[90px] ">
+            {/* <div className="mt-[-240px]  ml-[40px] absolute   max-sm:ml-[150px]  max-sm:mt-[90px] ">
               <Image
                 src="/Image/Gradient(3).png"
                 alt="my image"
@@ -46,7 +46,7 @@ const Form = () => {
                 width={300}
                 height={300}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
