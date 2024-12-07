@@ -32,13 +32,14 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 w-full">
+          <div>
             <Image
               src="/Image/img1.png"
               alt="my image"
-              className="w-full h-full"
-              width={500}
-              height={500}
+             
+              width={750}
+              height={100}
+             
             />
           </div>
         </div>
