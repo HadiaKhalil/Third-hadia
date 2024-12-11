@@ -71,7 +71,7 @@ const Lastsection = () => {
           </p>
         </div>
 
-        <div className="img mt-24 max-md:mt-3 w-[372px] max-sm:w-[290px] max-md:h-[360px] max-lg:mt-12 max-sm:mt-6  ">
+        <div className="img mt-24 max-md:mt-3  w-[372px] max-sm:w-[290px] max-md:h-[360px] max-lg:mt-12 max-sm:mt-6  ">
           <Image
             src="/Image/Rectangle 51(2).png"
             alt="my image"

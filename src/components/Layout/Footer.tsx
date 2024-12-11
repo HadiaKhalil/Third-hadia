@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" gap-1  max-sm:flex  md:flex   font-serif   max-sm:mt-3  ">
+          <div className=" gap-1 flex   max-sm:mt-3  ">
             <div>
               <Image
                 src="/Image/icon-park-solid_click.png"
