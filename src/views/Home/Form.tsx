@@ -35,7 +35,7 @@ const Form = () => {
                 className="w-[598px] bg-[#181823] h-20 max-lg:w-[456px] max-sm:w-[220px] max-sm:h-12 max-sm:rounded-t-lg max-sm:rounded-b-lg"
               />
               <button className="bg-[#763CAC] mt-12 max-sm:mt-10  w-[598px] h-16  max-lg:w-[456px] max-sm:w-[220px] hover:bg-[#8b3a8b] max-sm:h-12 font-extrabold max-sm:rounded-t-lg max-sm:rounded-b-lg">
-                Lets Get Started.
+                Lets Get Started
               </button>
             </div>
              </div>
