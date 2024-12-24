@@ -5,7 +5,7 @@ const Lastsection = () => {
     <div>
       <div className="max-w-[1440px] w-full mx-auto ">
         <div className=" justify-center items-center md:flex-row flex-col  text-[white] ">
-          <div className="flex justify-center gap-20 mt-12 text-white max-md:flex-col max-md:items-center">
+          <div className="flex justify-center  gap-20 mt-12 text-white max-md:flex-col max-md:items-center">
             <div>
               <h1
                 className="lg:text-3xl md:text-3xl font-title  text-2xl 

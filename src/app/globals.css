@@ -88,3 +88,12 @@ background-color: #0e061a;
   border:  1px solid rgba(91, 104, 118, 1);
  }
 
+
+.container{
+  @apply max-w-[1440px]  mx-auto
+  md:px-16 px-7;
+  /* max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; */
+}

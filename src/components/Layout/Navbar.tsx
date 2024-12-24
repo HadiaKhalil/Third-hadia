@@ -12,10 +12,10 @@ const Navbar = () => {
     <div>
       <div className="bg-[#1A0B2E] text-white">
         <div
-          className="flex justify-between max-w-[1440px] flex-wrap  p-0 w-full mx-auto box-border py-7 px-28 
-          h-[100px] m-auto max-sm:py-7 max-sm:px-12"
+          className=" container flex justify-between py-7
+          max-sm:py-7 max-sm:px-12"
         >
-          <div className="flex ">
+          <div className="flex">
             <div className="text-[35px] font-semibold">HK</div>
             <div className="leading-[15px] pt-3 font-serif">
               <p>Full Stack</p>
@@ -23,11 +23,11 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="parant  gap-8  hidden md:flex  font-serif  ">
-            <p>Home</p>
-            <p>About</p>
-            <p>Projects</p>
-            <p>Contact</p>
+          <div className=" pt-4 gap-8  hidden md:flex  font-serif  ">
+            <p className="cursor-pointer" >Home</p>
+            <p className="cursor-pointer">About</p>
+            <p className="cursor-pointer">Projects</p>
+            <p className="cursor-pointer">Contact</p>
           </div>
           <div className="md:hidden flex items-center">
             <button
@@ -73,16 +73,16 @@ const Navbar = () => {
         {isClick && (
           <div className="md:hidden text-white bg-black  ">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2 cursor-pointer">
                 Home
               </p>
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2  cursor-pointer">
                 About
               </p>
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2  cursor-pointer">
                 Projects
               </p>
-              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2">
+              <p className="text-white hover:bg-white hover:text-black rounded-lg p-2  cursor-pointer">
                 Contact
               </p>
             </div>

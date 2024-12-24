@@ -1,11 +1,5 @@
 import React from "react";
-import Image from "next/image";
-// import group1 from "../../../../public/Image/Group 1.png";
-// import group2 from "../../../../public/Image/pic4 (3).png";
-// import group3 from "../../../../public/Image/pic4 (2).png";
-// import group4 from "../../../../public/Image/pic4 (1).png";
-// import group5 from "../../../../public/Image/Rectangle 974.png";
-// import Cercle1 from "../../../../public/Image/Gradient(3).png";
+import Image from "next/image"
 
 const Cards = () => {
   return (
@@ -18,8 +12,8 @@ const Cards = () => {
           Work Experience
         </h1>
         {/* frst cards section  */}
-        <div className="flex justify-center items-center mx-auto pt-7 flex-wrap gap-[20px] font-title text-white">
-          <div>
+        <div className="flex justify-center z-10 items-center mx-auto pt-7 flex-wrap gap-[20px] font-title text-white">
+          <div className="z-10">
             <Image
               src="/Image/Rectangle 974.png"
               alt="my image"
@@ -52,7 +46,7 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="z-10">
             <Image
               src="/Image/Rectangle 974.png"
               alt="my image"
@@ -62,7 +56,7 @@ const Cards = () => {
             />
             <div
               className='text1 flex  min-h-[200px] rounded-t-lg"
-                max-sm:h-[100px]'
+                max-sm:h-[100px] '
             >
               <div>
                 <Image
@@ -92,7 +86,7 @@ const Cards = () => {
           className="flex justify-center items-center mx-auto  relative
          flex-wrap gap-[20px]   pt-7  text-white"
         >
-          <div>
+          <div className="z-10">
             <Image
               src="/Image/Rectangle 974.png"
               alt="my image"
@@ -100,7 +94,7 @@ const Cards = () => {
               height={60}
               className="rounded-t-lg"
             />
-            <div className=" text2 flex  min-h-[200px] rounded-b-lg max-sm:h-[100px] ">
+            <div className=" text2 flex  min-h-[200px] rounded-b-lg max-sm:h-[100px] z-10 ">
               <div>
                 <Image
                   src="/Image/pic4 (2).png"
@@ -120,7 +114,7 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="z-10">
             <Image
               src="/Image/Rectangle 974.png"
               alt="my image"
@@ -138,7 +132,7 @@ const Cards = () => {
                   className="mt-9 max-sm:w-[190px] max-sm:ml-[-27px] max-sm:mt-7"
                 />
               </div>
-              <div>
+              <div >
                 <p className="text-[20px] mb-[16px]  mt-7 leading-5  max-w-[200px] pl-4  max-sm:mt-[-1px] max-sm:text-[17px] max-sm:pl-0">
                   1 year in Cubix solution
                 </p>
