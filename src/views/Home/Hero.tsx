@@ -23,7 +23,7 @@ const Hero = () => {
                 <span className="text-sky-200">web dreams</span> into reality.
               </h1>
            
-              <p className=" text-sm mb-10 mt-12  max-sm:mt-5 max-lg:text-[14px] lg:text-lg">
+              <p className=" text-sm mb-10 mt-12  max-sm:mt-5 max-lg:text-[14px] lg:text-lg lg:max-w-[440px]">
                 Crafting seamless digital experiences from
                 {` front-end elegance to back-end robustness, `}I bring your web
                 visions to life as a versatile {`full-stack developer`}
