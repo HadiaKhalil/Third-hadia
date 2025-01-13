@@ -22,7 +22,7 @@ const page = () => {
     
       <div>
         <h3 className="font-semibold text-lg">Parkeergelegenheid</h3>
-        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>Parkeergarage, op eigen terrein, op afgesloten terrein</p>
+        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>{`Parkeergarage, op eigen terrein, op afgesloten terrein`}</p>
       </div>
       <div>
         <h3 className="font-semibold text-lg">Tuin</h3>
@@ -30,21 +30,21 @@ const page = () => {
       </div>
       <div>
         <h3 className="font-semibold text-lg">Ligging</h3>
-        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>In woonwijk, vrij uitzicht</p>
+        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>{`In woonwijk, vrij uitzich`}t</p>
       </div>
       <div>
         <h3 className="font-semibold text-lg">Voorzieningen</h3>
-        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)] '>Mechanische ventilatie, tv kabel, lift, schulpuil, natuurlijke ventilatie</p>
+        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)] '>{`Mechanische ventilatie, tv kabel, lift, schulpuil, natuurlijke ventilatie`}</p>
       </div>
   
 
       <div>
         <h3 className="font-semibold text-lg">Isolatie</h3>
-        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>Dakisolatie, muurisolatie, vloerisolatie, dubbel glas, hr glas</p>
+        <p className='text-[12px]  border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>{`Dakisolatie, muurisolatie, vloerisolatie, dubbel glas, hr glas`}</p>
       </div>
       <div>
         <h3 className="font-semibold text-lg">Verwarming</h3>
-        <p className='text-[12px] border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>Cv ketel, vloerverwarming geheel</p>
+        <p className='text-[12px] border-b-[1px] border-[rgba(0, 0, 0, 0.3)]'>{`Cv ketel, vloerverwarming geheel`}</p>
 
       </div>
       <div>

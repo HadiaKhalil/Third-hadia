@@ -6,7 +6,7 @@ const Hero = () => {
   return (
      <>
      <div className='container'>
-      <div className=' w-full  grid lg:gap-0 gap-6 lg:grid-cols-2 items-center   mt-36 md:mb-36 mb-8 '>
+      <div className=' w-full  grid lg:gap-0 gap-6 lg:grid-cols-2 items-center   md:mt-36 mt-6 md:mb-36 mb-8 '>
         <div>
           <button className='bg-[#07C907] px-4 py-2  rounded text-[11px] text-white '>Te koop</button>
           <h1 className=' font font-bold sm:text-5xl text-3xl mt-2   '>Cape Kennedy 59</h1>
