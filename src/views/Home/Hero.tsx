@@ -41,7 +41,7 @@ const Hero = () => {
 
           />
         </div>
-        <div>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</div>
+      
       </div>
       </div>
     </>
