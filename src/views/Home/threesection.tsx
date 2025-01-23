@@ -66,7 +66,7 @@
 // export default page
 
 
-
+import Image from "next/image";
 
 const Page = () => {
   
@@ -74,7 +74,7 @@ const Page = () => {
     <div className="container text-[#07076D]">
       <div className="flex flex-col lg:flex-row lg:gap-20 ">
         <div className="w-full lg:w-[555px]">
-          <img
+          <Image
             src="/images/second pic.png"
             alt="image"
             className="object-cover rounded-lg w-full"

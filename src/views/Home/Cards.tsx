@@ -1,17 +1,17 @@
 import React from 'react';
-
+import Image from "next/image";
 const Cards = () => {
   return (
     <div className="container">
-      <div className="  text-gray-500 text-center">
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 md:gap-20 gap-8 w-full mt-8 mb-1">
+      <div className="  text-center">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-20 gap-8 w-full mt-8 mb-1">
           {points.map((point) => (
             <div key={point.id}>
         
-              <p className="circle font-semibold ">{point.cercle}</p>
+              <p className="circle font-semibold flex justify-center items-center ">{point.cercle}</p>
               {point.imagesrc && (
                 <div className="w-full mt-8">
-                  <img
+                  <Image
                     src={point.imagesrc}
                     alt={`Image ${point.id}`} 
                     className="object-cover rounded-lg w-full"
@@ -20,8 +20,8 @@ const Cards = () => {
                   />
                 </div>
               )}
-              <h3 className="font-semibold text-black text-[18px] py-6">{point.description}</h3>
-              <p className="text-[16px]  ">
+              <h3 className="font-semibold text-black text-[21px] py-6">{point.description}</h3>
+              <p className=" text-[#637381] text-[16px]  ">
                 {point.description1}
               </p>
             </div>
