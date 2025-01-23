@@ -8,7 +8,7 @@ const Cards = () => {
           {points.map((point) => (
             <div key={point.id}>
         
-              <p className="circle font-semibold flex justify-center items-center ">{point.cercle}</p>
+              <p className="circle font-semibold">{point.cercle}</p>
               {point.imagesrc && (
                 <div className="w-full mt-8">
                   <Image
