@@ -1,10 +1,6 @@
 import React from 'react'
 import { SquareDashed, Clock7, DoorOpen } from 'lucide-react';
 import Image from 'next/image';
-
-
-  
-    
 export default function Othercards() {
     return (
         <div className="container">
