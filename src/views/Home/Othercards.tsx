@@ -20,9 +20,7 @@ export default function Othercards() {
                                 />
                             </div>
                         )}
-
-
-                        {point.item?.map((item, index) => (
+                {point.item?.map((item, index) => (
                             <div key={index}>
                                 <div className="text-[15px] border-b-[1px] pl-4 pb-4 pt-2 leading-6 border-[rgba(0, 0, 0, 0.3)] mb-2">
                                     {item.text && <p>{item.text}</p>}
