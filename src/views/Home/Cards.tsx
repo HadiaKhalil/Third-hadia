@@ -2,8 +2,8 @@ import React from 'react';
 
 const Cards = () => {
   return (
-    <div className="container text-gray-500">
-      <div className="flex flex-col lg:flex-row lg:gap-20 text-center">
+    <div className="container">
+      <div className="  text-gray-500 text-center">
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 md:gap-20 gap-8 w-full mt-8 mb-1">
           {points.map((point) => (
             <div key={point.id}>
