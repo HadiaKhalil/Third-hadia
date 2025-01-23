@@ -1,5 +1,5 @@
 // import React from 'react'
-
+// import Image from "next/image";
 
 
 // const page = () => {
@@ -83,10 +83,10 @@ const Page = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 md:gap-20 gap-16 lg:w-[95%] w-full mt-8 mb-8">
+        <div className="grid grid-cols-2 md:gap-20 gap-10 lg:w-[95%] w-full mt-8 mb-8">
           {points.map((point) => (
             <div key={point.id}>
-              <h3 className="font-semibold text-lg">{point.title}</h3>
+              <h3 className="font-semibold sm:text-lg">{point.title}</h3>
               <p className="text-[12px] border-b-[1px] border-[rgba(0, 0, 0, 0.3)]">
                 {point.description}
               </p>
